@@ -113,7 +113,7 @@ public class Director : MonoBehaviour
                     c++;
                     if (c >= 3)
                     {
-                        temp[i, j] = c;
+                        temp2[i, j] = c;
                     }
                 }
                 else
