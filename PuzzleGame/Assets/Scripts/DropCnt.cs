@@ -90,5 +90,7 @@ public class DropCnt : MonoBehaviour
         d.DeleteDrop();
         await Task.Delay(1000);
         d.DownDrop();
+        await Task.Delay(500);
+        d.ResetDrop();
     }
 }

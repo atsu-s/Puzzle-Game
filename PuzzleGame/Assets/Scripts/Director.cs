@@ -165,4 +165,19 @@ public class Director : MonoBehaviour
             }
         }
     }
+    public void ResetDrop()
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 6; j++)
+            {
+                if (Field[i, j] == 6)
+                {
+                    int type = Random.Range(0, 6);
+                    Field[i, j] = type;
+                    Obj[i, j].GetComponent<DropCnt>().Set(type);
+                }
+            }
+        }
+    }
 }

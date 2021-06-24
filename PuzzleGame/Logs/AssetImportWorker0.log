@@ -410,3 +410,35 @@ Received Import Request.
 Start importing Assets/Scripts/Director.cs using Guid(f0700e56dbd82480582e37677a2d1117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed84c74ee347c7f0f233840eed110c82') in 0.001901 seconds
   Import took 0.004588 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.350 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.0 MB.
+System memory in use after: 180.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2563.
+Total: 1.484166 ms (FindLiveObjects: 0.106083 ms CreateObjectMapping: 0.037417 ms MarkObjects: 1.248084 ms  DeleteObjects: 0.091875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 383.281742 seconds.
+  path: Assets/Scripts/Director.cs
+  artifactKey: Guid(f0700e56dbd82480582e37677a2d1117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Director.cs using Guid(f0700e56dbd82480582e37677a2d1117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07790170230e8d32f94bd35f9ea8e086') in 0.007044 seconds
+  Import took 0.009292 seconds .
+
