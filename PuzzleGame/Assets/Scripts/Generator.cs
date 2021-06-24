@@ -19,8 +19,10 @@ public class Generator : MonoBehaviour
                 d.transform.SetParent(l.transform);
                 int type = Random.Range(0, 6);
                 d.GetComponent<DropCnt>().Set(type);
-                    d.GetComponent<DropCnt>().ID1 = i;
-                    d.GetComponent<DropCnt>().ID2 = j;
+                d.GetComponent<DropCnt>().ID1 = i;
+                d.GetComponent<DropCnt>().ID2 = j;
+                GameObject.Find("D").GetComponent<Director>().Obj[i, j] = d;
+                GameObject.Find("D").GetComponent<Director>().Field[i, j] = type;
             }
         }
     }
