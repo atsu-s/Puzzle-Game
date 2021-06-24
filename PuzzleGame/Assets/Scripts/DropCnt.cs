@@ -88,5 +88,7 @@ public class DropCnt : MonoBehaviour
     private async void Delete()
     {
         d.DeleteDrop();
+        await Task.Delay(1000);
+        d.DownDrop();
     }
 }

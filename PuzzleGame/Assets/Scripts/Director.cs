@@ -146,4 +146,23 @@ public class Director : MonoBehaviour
             }
         }
     }
+    public void DownDrop()
+    {
+        for (int j = 0; j < 6; j++)
+        {
+            for (int i = 1; i < 5; i++)
+            {
+                if (Field[i, j] == 6)
+                {
+                    for (int k = i; k > 0; k--)
+                    {
+                        if (Field[k - 1, j] != 6)
+                        {
+                            ChangePos(Obj[k, j], Obj[k - 1, j]);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
