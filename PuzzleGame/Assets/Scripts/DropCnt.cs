@@ -87,10 +87,15 @@ public class DropCnt : MonoBehaviour
     }
     private async void Delete()
     {
-        d.DeleteDrop();
-        await Task.Delay(1000);
-        d.DownDrop();
-        await Task.Delay(500);
-        d.ResetDrop();
+        while (true)
+        {
+            d.DeleteDrop();
+            if (d.Check()) break;
+            await Task.Delay(1000);
+            d.DownDrop();
+            await Task.Delay(500);
+            d.ResetDrop();
+            await Task.Delay(500);
+        }
     }
 }
