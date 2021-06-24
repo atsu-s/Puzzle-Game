@@ -32,7 +32,7 @@ public class Director : MonoBehaviour
         float x = p1.x - p2.x;
         float y = p1.y - p2.y;
         float r = Mathf.Sqrt(x * x + y * y);
-        if (r < 93.75)
+        if (r < 93.75f)
         {
             return true;
         }
@@ -41,7 +41,7 @@ public class Director : MonoBehaviour
     public void ChangePos(GameObject obj1,GameObject obj2)
     {
         DropCnt d1 = obj1.GetComponent<DropCnt>();
-        DropCnt d2 = obj1.GetComponent<DropCnt>();
+        DropCnt d2 = obj2.GetComponent<DropCnt>();
         GameObject tempObj;
         Vector2 tempPos;
         int temp;
