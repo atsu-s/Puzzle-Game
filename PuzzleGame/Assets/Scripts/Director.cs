@@ -67,4 +67,83 @@ public class Director : MonoBehaviour
         d1.ID2 = d2.ID2;
         d2.ID2 = temp;
     }
+    public void DeleteDrop()
+    {
+        int c = 0, t = 0;
+        int[,] temp = new int[5, 6];
+        int[,] temp2 = new int[5, 6];
+
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 6; j++)
+            {
+                if (j == 0)
+                {
+                    c = 1;
+                    t = Field[i, j];
+                    continue;
+                }
+                if (t == Field[i, j])
+                {
+                    c++;
+                    if (c >= 3)
+                    {
+                        temp[i, j] = c;
+                    }
+                }
+                else
+                {
+                    c = 1;
+                    t = Field[i, j];
+                }
+            }
+        }
+        for (int j = 0; j < 6; j++)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                if (i == 0)
+                {
+                    c = 1;
+                    t = Field[i, j];
+                    continue;
+                }
+                if (t == Field[i, j])
+                {
+                    c++;
+                    if (c >= 3)
+                    {
+                        temp[i, j] = c;
+                    }
+                }
+                else
+                {
+                    c = 1;
+                    t = Field[i, j];
+                }
+            }
+        }
+        for (int i = 0; i < 5; i++)
+        {
+            for (int j = 0; j < 6; j++)
+            {
+                if (temp[i, j]>=3)
+                {
+                    for (int k = j; temp[i, j] > 0; k--, temp[i, j]--)
+                    {
+                        Field[i, k] = 6;
+                        Obj[i, k].GetComponent<DropCnt>().Set(6);
+                    }
+                }
+                if (temp2[i, j] >= 3)
+                {
+                    for (int k = i; temp2[i, j] > 0; k--, temp2[i, j]--)
+                    {
+                        Field[k, j] = 6;
+                        Obj[k, j].GetComponent<DropCnt>().Set(6);
+                    }
+                }
+            }
+        }
+    }
 }

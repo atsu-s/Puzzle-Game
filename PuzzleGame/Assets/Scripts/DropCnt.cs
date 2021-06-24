@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public class DropCnt : MonoBehaviour
 {
@@ -72,6 +73,7 @@ public class DropCnt : MonoBehaviour
     public void SetDrop()
     {
         touchFlag = false;
+        Delete();
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -82,5 +84,9 @@ public class DropCnt : MonoBehaviour
                 d.ChangePos(gameObject, collision.gameObject);
             }
         }
+    }
+    private async void Delete()
+    {
+        d.DeleteDrop();
     }
 }
