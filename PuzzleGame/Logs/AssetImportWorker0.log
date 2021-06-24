@@ -210,3 +210,331 @@ Total: 1.493625 ms (FindLiveObjects: 0.112167 ms CreateObjectMapping: 0.036708 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.333 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.9 MB.
+System memory in use after: 185.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2541.
+Total: 1.536417 ms (FindLiveObjects: 0.110500 ms CreateObjectMapping: 0.037709 ms MarkObjects: 1.282833 ms  DeleteObjects: 0.104709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 713.238595 seconds.
+  path: Assets/Scripts/DropCnt.cs
+  artifactKey: Guid(b5ba790bfcd8846a08b9777547f12643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DropCnt.cs using Guid(b5ba790bfcd8846a08b9777547f12643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733d4965ee18dce68c75e5fd5226a6ef') in 0.022301 seconds
+  Import took 0.024889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 425.408351 seconds.
+  path: Assets/Scripts/DropCnt.cs
+  artifactKey: Guid(b5ba790bfcd8846a08b9777547f12643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DropCnt.cs using Guid(b5ba790bfcd8846a08b9777547f12643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ca08fa4f212552b24dd39b05abbf19') in 0.003765 seconds
+  Import took 0.015583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005905 seconds.
+  path: Assets/Scripts/DropCnt.cs
+  artifactKey: Guid(b5ba790bfcd8846a08b9777547f12643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DropCnt.cs using Guid(b5ba790bfcd8846a08b9777547f12643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ca08fa4f212552b24dd39b05abbf19') in 0.000836 seconds
+  Import took 0.003265 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.401 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.1 MB.
+System memory in use after: 186.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2545.
+Total: 1.541542 ms (FindLiveObjects: 0.155166 ms CreateObjectMapping: 0.039667 ms MarkObjects: 1.243333 ms  DeleteObjects: 0.102583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 51.695255 seconds.
+  path: Assets/Scripts/DropCnt.cs
+  artifactKey: Guid(b5ba790bfcd8846a08b9777547f12643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DropCnt.cs using Guid(b5ba790bfcd8846a08b9777547f12643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74054a5233db9209f28a714bf16f3e3e') in 0.005644 seconds
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.819995 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f1163dcdc0d4843f37fbec1cd1bfaa') in 0.173424 seconds
+  Import took 0.178720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.991576 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0de129063218c515628dea0e63df5e') in 0.013876 seconds
+  Import took 0.016909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.243281 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b5dfc5420be49d287215b895bcb1a1') in 0.022175 seconds
+  Import took 0.029707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.840728 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09b6572f0c482a9fe85d04beadefb38') in 0.007419 seconds
+  Import took 0.010314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.546701 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b96f7668f4a29b906f3462003c7504') in 0.008525 seconds
+  Import took 0.011663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.439597 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd108dd2f672a83e437463fe97610411') in 0.007030 seconds
+  Import took 0.009736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.306119 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46837697c5acc1a40318c83b11307d5') in 0.010082 seconds
+  Import took 0.013658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017631 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46837697c5acc1a40318c83b11307d5') in 0.006958 seconds
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.419774 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f3b49de4ddea0083957b341b5d5b47') in 0.008580 seconds
+  Import took 0.011740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.906757 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb42d3da3d7f8a5ed82b4a156cba752f') in 0.010618 seconds
+  Import took 0.014190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015999 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb42d3da3d7f8a5ed82b4a156cba752f') in 0.006998 seconds
+  Import took 0.009864 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.366 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.5 MB.
+System memory in use after: 186.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2550.
+Total: 1.631625 ms (FindLiveObjects: 0.144583 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.347083 ms  DeleteObjects: 0.097417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.561 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.7 MB.
+System memory in use after: 186.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2554.
+Total: 1.919958 ms (FindLiveObjects: 0.248375 ms CreateObjectMapping: 0.047250 ms MarkObjects: 1.498041 ms  DeleteObjects: 0.125375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 489.363169 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc8bb1f39ffdffb5b4385a17c93718d') in 0.154815 seconds
+  Import took 0.157543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.532161 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1b875e91c3d94835d7be8d65b86441') in 0.017856 seconds
+  Import took 0.020929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008392 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1b875e91c3d94835d7be8d65b86441') in 0.006658 seconds
+  Import took 0.009319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.101191 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e54096b626936588f779209463f458a') in 0.011459 seconds
+  Import took 0.014135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.263859 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51e4ceef37b3f7ee94ec3c4b3456553') in 0.007562 seconds
+  Import took 0.010347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.597694 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a227a52aab6c98f33e1d44ee522a39') in 0.010592 seconds
+  Import took 0.015614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.928185 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb010e365f774da5f0ba622178fe4f8') in 0.011121 seconds
+  Import took 0.014369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.306955 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d00d0c63bb892a23122d52f8109fb3') in 0.009365 seconds
+  Import took 0.015224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.796498 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d6dddb628e13d7875b5e0a88c60d0b') in 0.013661 seconds
+  Import took 0.016605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.698690 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce2f528aa262caca6ae9c8711a8ab60') in 0.009646 seconds
+  Import took 0.012400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.112839 seconds.
+  path: Assets/Plefabs/Drop.prefab
+  artifactKey: Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plefabs/Drop.prefab using Guid(33e47e79844e5430e981bb5b5356975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd44fcd6519d43c86b991291e18c10b7') in 0.007865 seconds
+  Import took 0.010775 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.396 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.1 MB.
+System memory in use after: 187.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 1.557000 ms (FindLiveObjects: 0.135208 ms CreateObjectMapping: 0.039500 ms MarkObjects: 1.288958 ms  DeleteObjects: 0.092625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

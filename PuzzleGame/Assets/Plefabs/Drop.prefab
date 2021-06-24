@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 1264166672964456897}
   - component: {fileID: 4161839719802179056}
   - component: {fileID: 8534267216610244804}
+  - component: {fileID: 5293526810978761670}
+  - component: {fileID: -232829130074535740}
+  - component: {fileID: -1617694335037520449}
+  - component: {fileID: -4491704788715736703}
   m_Layer: 0
   m_Name: Drop
   m_TagString: Untagged
@@ -108,3 +112,105 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: 1
   m_LayoutPriority: 1
+--- !u!114 &5293526810978761670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7012051602404897808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ba790bfcd8846a08b9777547f12643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sp:
+  - {fileID: 21300000, guid: 84f4b4eaaa7424db7822ba3807c2bb3f, type: 3}
+  - {fileID: 21300000, guid: 3cfa9763fc2154a9c9b580dc5373f898, type: 3}
+  - {fileID: 21300000, guid: f0d237f6fb30b433aafdf936c96ae6c4, type: 3}
+  - {fileID: 21300000, guid: e13b9cba622554f1d89e21812f537f2d, type: 3}
+  - {fileID: 21300000, guid: 59d61ae7ea2494cf48a94cdee72be5c7, type: 3}
+  - {fileID: 21300000, guid: 0533e1d46c4934eec8448b0c7ad950ba, type: 3}
+  - {fileID: 21300000, guid: 2f865c66299244127b6ee5730871dbd7, type: 3}
+--- !u!114 &-232829130074535740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7012051602404897808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5293526810978761670}
+          m_TargetAssemblyTypeName: DropCnt, Assembly-CSharp
+          m_MethodName: GetDrop
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5293526810978761670}
+          m_TargetAssemblyTypeName: DropCnt, Assembly-CSharp
+          m_MethodName: SetDrop
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!58 &-1617694335037520449
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7012051602404897808}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.375
+--- !u!50 &-4491704788715736703
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7012051602404897808}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
